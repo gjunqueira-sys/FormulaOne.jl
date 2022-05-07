@@ -1,0 +1,13 @@
+name = "FormulaOne"
+uuid = "a5e06768-2568-4c91-b0b4-d02d138e6b19"
+authors = ["Gil Junqueira"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.7.2"
+
+[targets]
+test = ["Test"]
